@@ -54,6 +54,8 @@ export default function Login({ navigation }) {
           placeholderTextColor="#999"
           autoCapitalize="words"
           autoCorrect={false}
+          value={techs}
+          onChangeText={setTechs} 
         />
 
         <TouchableOpacity onPress={handleSubmit} style={styles.button}>
