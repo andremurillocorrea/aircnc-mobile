@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, FlatList, Image, TouchableOpacity } from 'react
 
 import api from '../services/api';
 
-function SpotList({ tech }) {
+function SpotList({ tech, navigation }) {
   const [spots, setSpots] = useState([]);
 
   useEffect(() => {
